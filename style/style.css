@@ -4,3 +4,15 @@
     font-family: "Poppins", sans-serif;
     font-style: normal;
   }
+
+.activity-area{
+  margin-top: 1.5rem;
+  border-top: 1px dashed rgba(55, 82, 253, 0.4);
+}
+.activity-area p{
+  color: rgba(0,0,0,0.6);
+  padding: 0.625rem;
+  background-color: #F4F7FF;
+  border-radius: 0.5rem;
+  margin-top: 1.5rem;
+}

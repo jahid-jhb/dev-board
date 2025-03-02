@@ -7,7 +7,7 @@
     <link rel="shortcut icon" href="assets/logo.png" type="image/x-icon">
     <title>Dev Board</title>
     <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
-    <link rel="stylesheet" href="style/font.css">
+    <link rel="stylesheet" href="style/style.css">
 </head>
 
 <body class="poppins  bg-[#F4F7FF]">
@@ -27,7 +27,7 @@
         </div>
     </header>
 
-    <main class="flex justify-between items-center gap-6 mx-2 mt-5">
+    <main class="flex justify-between gap-6 mx-2 mt-5">
         <section class="w-3/4 bg-white px-6 pt-6 pb-8 rounded-2xl">
             <div class="grid grid-cols-4 justify-between items-center gap-6">
                 <div class="bg-[#f4f7ff] p-6 rounded-xl flex gap-4 justify-between items-center">
@@ -79,7 +79,7 @@
                 <div class="p-6 mt-8 bg-[#f4f7ff] rounded-2xl">
                     <p class="px-4 py-2 bg-white rounded-lg inline-block">CloudSync</p>
                     <h3 class="text-2xl font-medium mt-4">Add Dark Mode</h3>
-                    <p class="mt-4 p-4 bg-white rounded-lg text-[rgba(0,0,0,0.6)]">Store the user's preference in localStorage, update CSS variables dynamically, and apply a smooth transition effect.</p>
+                    <p class="mt-4 p-4 bg-white rounded-lg text-[rgba(0,0,0,0.6)]">Store the user's preference in localStorage, update CSS variables dynamically, and apply a smooth transition effect.....................................</p>
 
                     <div class="mt-4 pt-3 flex justify-between items-center border-t-[1px] border-dashed border-[rgba(55,82,253,0.4)]">
                         <div>
@@ -166,11 +166,20 @@
             </div>
         </section>
 
-        <section class="w-1/4">
-            <p>Activity Log</p>
-            <button>Clear History</button>
-            <p>You have Complete The Task Add Dark Mode at 12:48:15 PM</p>
-            <p>You have Complete The Task Add Dark Mode at 12:48:15 PM</p>
+        <section class="w-1/4 bg-white rounded-2xl p-6 flex flex-col items-center">
+          
+            <div class="flex gap-4 items-center mb-4">
+                <img src="assets/activity.png" alt="">
+                <p class="text-xl font-medium">Activity Log</p>
+            </div>
+
+            <button class="px-5 py-[0.625rem] bg-[#3752FD] text-white font-medium rounded-xl cursor-pointer mb-4">Clear History</button>
+
+            <div class="activity-area">
+                <p>You have Complete The Task Add Dark Mode at 12:48:15 PM</p>
+                <p>You have Complete The Task Add Dark Mode at 12:48:15 PM</p>
+            </div>
+
         </section>
     </main>
 
