@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog Post</title>
+    <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+    <link rel="stylesheet" href="style/style.css">
+</head>
+
+<body class="poppins  bg-[#F4F7FF]">
+
+    <header class="flex justify-between items-center bg-white px-6 py-3 mx-20 mt-6 rounded-2xl">
+        <div class="flex justify-between items-center gap-2">
+            <img src="../assets/logo.png" alt="Website Logo">
+            <h2 class="text-4xl"><span class="font-light">Dev</span><span class="font-bold">Board</span></h2>
+        </div>
+        <div>
+            <button id="back-btn" class="px-5 py-[0.625rem] bg-[#3752FD] text-white font-medium rounded-xl cursor-pointer">Back to Desk</button>
+        </div>
+    </header>
+
+    <main class="flex flex-col items-center mt-3">
+        <h3 class="text-2xl font-bold">Blogs</h3>
+        <section>
+
+            <div class="bg-white p-4 rounded-lg mt-4">
+                <h4 class="text-xl font-semibold pb-2 border-b-[1px] border-dashed border-[rgba(55,82,253,0.4)]">Question-1: What are the different ways to select an element in the DOM?</h4>
+                <p class="text-[rgba(0,0,0,0.6)] mt-3">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ullam nobis quasi veritatis dolor quos dolore magnam officiis delectus eum exercitationem.</p>
+            </div>
+
+            <div class="bg-white p-4 rounded-lg mt-4">
+                <h4 class="text-xl font-semibold pb-2 border-b-[1px] border-dashed border-[rgba(55,82,253,0.4)]">Question-2: What is the difference between innerHTML, innerText, and textContent ?</h4>
+                <p class="text-[rgba(0,0,0,0.6)] mt-3">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ullam nobis quasi veritatis dolor quos dolore magnam officiis delectus eum exercitationem.</p>
+            </div>
+
+            <div class="bg-white p-4 rounded-lg mt-4">
+                <h4 class="text-xl font-semibold pb-2 border-b-[1px] border-dashed border-[rgba(55,82,253,0.4)]">Question-3: What is event delegation in the DOM?</h4>
+                <p class="text-[rgba(0,0,0,0.6)] mt-3">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ullam nobis quasi veritatis dolor quos dolore magnam officiis delectus eum exercitationem.</p>
+            </div>
+
+            <div class="bg-white p-4 rounded-lg mt-4">
+                <h4 class="text-xl font-semibold pb-2 border-b-[1px] border-dashed border-[rgba(55,82,253,0.4)]">Question-4: What is event bubbling in the DOM?</h4>
+                <p class="text-[rgba(0,0,0,0.6)] mt-3">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ullam nobis quasi veritatis dolor quos dolore magnam officiis delectus eum exercitationem.</p>
+            </div>
+
+            <div class="bg-white p-4 rounded-lg mt-4">
+                <h4 class="text-xl font-semibold pb-2 border-b-[1px] border-dashed border-[rgba(55,82,253,0.4)]">Question-5: How do you create, add, and remove elements using JavaScript?</h4>
+                <p class="text-[rgba(0,0,0,0.6)] mt-3">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ullam nobis quasi veritatis dolor quos dolore magnam officiis delectus eum exercitationem.</p>
+            </div>
+
+        </section>
+    </main>
+
+<script>
+    document.getElementById('back-btn').addEventListener('click', function(){
+        window.location.href = '../index.html';
+    });
+</script>
+
+</body>
+
+</html>
