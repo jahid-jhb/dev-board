@@ -6,8 +6,7 @@
   }
 
 .activity-area{
-  margin-top: 1.5rem;
-  border-top: 1px dashed rgba(55, 82, 253, 0.4);
+  margin-top: 0.5rem;
 }
 .activity-area p{
   color: rgba(0,0,0,0.6);
